@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+main {
+  background-color: #a2d6f9;
+  color: white;
+  padding: 2rem;
+  width: 100vw;
+}
+#title,
+#description {
+  text-align: center;
+}
+.container {
+  background-color: #006ba6;
+  max-width: 550px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+#name,
+#email,
+#number,
+#cmt,
+#dropdown,
+#submit {
+  display: block;
+  border-style: none;
+  padding: 0.4rem;
+  width: 100%;
+  border-radius: 3px;
+}
+#cmt {
+  margin-top: 0.7rem;
+}
+#submit {
+  background-color: #a2d6f9;
+  border-style: none;
+  color: #006ba6;
+  font-weight: 700;
+}
